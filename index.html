@@ -1,1 +1,41 @@
-<h1>Helloss</h1>
+<html>
+	<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css.css">
+    <script src="mainJS.js"></script>
+	</head>
+	<body>
+		<div class="container grid_layout">
+      <div class="top">
+        <div class="budget__title">Pieejamais budžets</div>
+        <div class="budget__total"><span class="budget__value">100</span>€</div>
+        <div class="budget__add">
+          <select id="budget_type">
+            <option value="income">+</option>
+            <option value="expense">-</option>
+          </select>
+          <input type="text" name="description" placeholder="Apraksts">
+          <input type="number" name="value" placeholder="summa">
+          <button type="button">Pievienot</button>
+        </div>
+      </div>
+
+			<div class="income left list">
+				<h1>Ienākumi</h1>
+				<div class="all_income list__inner">
+          <div class="list_item"><div class="list_description">Alga</div><div class="list_value">+100€</div></div>
+				</div>
+				<div class="list__total">+<span class="total_income">250</span>€</div>
+			</div>
+
+			<div class="expenses right list">
+				<h1>Izdevumi</h1>
+				<div class="all_expenses list__inner">
+            <div class="list_item"><div class="list_description">Iediens</div><div class="list_value">-100€</div></div>
+				</div>
+				<div class="list__total">-<span class="total_expenses">250</span>€</div>
+			</div>
+
+		</div>
+	</body>
+</html>
