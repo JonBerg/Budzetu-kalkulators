@@ -4,14 +4,16 @@
   margin: auto;
 }
 
-/* Pieškir izkārtojumu ar css grid */
-.grid_layout {
-  display: grid;
-  grid-template-areas: 'top top' 'left right';
-  grid-gap: 10px;
-  padding: 15px;
-  grid-template-rows: 150px;
-  grid-auto-rows: 600px;
+/* Pieškir izkārtojumu ar css grid, priekš desktop*/
+@media only screen and (min-width: 700px) {
+  .grid_layout {
+    display: grid;
+    grid-template-areas: 'top top' 'left right';
+    grid-gap: 10px;
+    padding: 15px;
+    grid-template-rows: 150px;
+    grid-auto-rows: 600px;
+  }
 }
 
 .top {
