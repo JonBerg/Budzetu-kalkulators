@@ -81,8 +81,10 @@ function clearlocal() {
   location.reload();
 }
 
-//Salabot localStorage tā lai pec lapas refresha nepazūd pieejamais budžets un kopējie izdebvumu un inākumu vērtība
-//Izveidot vienu mainīgo kura veido sarakstu ar inākumie un izdevumiem un to visu glabāt objektā kuru pēc tam saglaba localStorage
-//Optimizēt kodu atbrīvoties no liekā
-//Pievienot iepsēju izveidot jaunu mēnesi. Opcija Jauns menesis saglabās iepriekšeja meneša datus un nodzēsīs laukus priekš jauna meneša.
-//Pēc vajadzibas var atvert iepriekšejos menešos un apskatīt no ienākumus un izdevumus
+//Salabot localStorage tā, lai pēc lapas refresha nepazūd pieejamais budžets un kopējā izdevumu un ienākumu vērtība
+//Izveidot vienu mainīgo, kurā veido sarakstu ar ienākumiem un izdevumiem un to visu glabāt objektā, kuru pēc tam saglabā localStorage
+//Optimizēt kodu, atbrīvoties no liekā
+//Pievienot iespēju nodzēst sarakstu elementu un tas automātiski atrēķinās nost
+//ja lauki ir aizpildīti, tad pievienot ierakstu sarakstam var uzspiežot enter (Poga paliek pieejama)
+//Pievienot iespēju izveidot jaunu mēnesi. Opcija Jauns mēnesis saglabās iepriekšējā mēneša datus un nodzēsīs laukus priekš jaunā mēneša.
+//Pēc vajadzības var atvērt iepriekšējos mēnešus un apskatīt to ienākumus un izdevumus
