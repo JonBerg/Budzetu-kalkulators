@@ -1,7 +1,12 @@
+:root {
+  --main-color: red;
+}
+
 /* Nodefinē kontenera maksimālo platumu un ar margin: auto nocentre */
 .container {
   max-width: 1000px;
   margin: auto;
+  background: var(--main-color);
 }
 
 /* Pieškir izkārtojumu ar css grid, priekš desktop*/
@@ -64,3 +69,13 @@
 .list__total {
   align-self: flex-end;
 }
+/* 
+CSS UZDEVUMI
+Nostilot galvenes un saraksta elementus
+-"Pieejamais budžets" tekstam pieškirt stilu kas labi iderās kopēja dizianā
+-Ievades laukiem pieškirt visuāli pievilcīgu stilu(font-size, border, padding)
+-Nostilot pogas visuāli pievilcīgi
+-Izcelt kopējos izdevumus un ienākumu izvadi
+-Inākuma un izdevumu sarakstam piesķirt stilu kas labak nodala saraksta ierakstu vienu no otras
+
+*/
